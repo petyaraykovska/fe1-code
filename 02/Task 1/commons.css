@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #eee;
+	font: 16px;
+	font-family: Verdana, Arial, sans-serif;
+	padding: 40px;
+}
+
+p {
+	padding-bottom: 20px;
+}
+
+ol, ul {
+	padding-left: 80px;
+	padding-bottom: 40px;
+}
+
+
+dl {
+	padding-bottom: 20px;
+}
+
+
+p, ol, ul, dl {
+	padding-bottom: 40px;
+	padding-top:40px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+ul li {
+
+	list-style-type:circle;
+	padding-bottom: 20px;
+}
+
+ul li ul li {
+	list-style-type: disc;
+}
+
+ol li { 
+	padding-bottom: 40px;
+}
