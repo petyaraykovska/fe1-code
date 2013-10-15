@@ -66,5 +66,9 @@ background: green;
 }
 
 .labels {
-	background: transparent;
+	background: white;
+}
+
+* > tr > td {
+	border: 1px solid black;
 }
