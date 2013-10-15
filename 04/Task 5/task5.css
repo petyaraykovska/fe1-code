@@ -18,3 +18,7 @@ tfoot {
 	font-style: italic;
 	background: blue;
 }
+
+table {
+	border: 1px solid grey;
+}
