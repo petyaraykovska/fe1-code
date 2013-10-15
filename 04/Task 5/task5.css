@@ -13,3 +13,8 @@ td {
 .tablehead {
 	background: red;
 }
+
+tfoot {
+	font-style: italic;
+	background: blue;
+}
