@@ -1,10 +1,70 @@
-task6.css
+p, ol, ul, dl {
+	padding-bottom: 40px;
+}
 
-Task 6
-Go crazy on your wikipedia page
-Update the page font
-Improve the whitespace between paragraphs and other tags
-Go crazy! ( not literally, of course )
-Task 7, ( We are doing this on Saturday! )
-Create accounts in GitHub and upload your code there.
-Go to GitHub.com and register
+ul li {
+
+	list-style-type:lower-latin;
+	padding-bottom: 20px;
+}
+
+ol li {
+	padding-bottom: 20px;
+	list-style-type: disc;
+	padding-top: 20px;
+}
+
+dd {
+	padding-left: 20px;
+}
+
+dt {
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+img {
+	padding-left: 20px;
+}
+
+h1 {
+	border-bottom: 1px solid grey;
+	line-height: 70px;
+	padding-left: 40px;
+}
+
+p {
+	padding-left: 40px;
+}
+
+h2, h3, h4, h5, h6 {
+	padding-top: 40px;
+	padding-left: 40px;
+	border-bottom: solid 1px black;
+	line-height: 40px;
+}
+
+th {
+	border: 1px solid grey;
+}
+
+td {
+border: 1px solid grey;
+}
+
+.old {
+background: red;
+}
+
+.current {
+background: green;
+}
+
+.future {
+	background: blue;
+}
+
+.labels {
+	background: transparent;
+}

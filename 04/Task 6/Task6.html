@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Task5.html</title>
+	<title>Task6.html</title>
+	<link rel="stylesheet" type="text/css" href="task6.css">
 </head>
 <body>
 	<h1>WordPress</h1>
@@ -111,16 +112,16 @@
 
 		<table style="border-spacing: 1px; border: 1px solid black;">
 			<tr>
-				<th style="background-color: grey">Legend:</th>	
-				<td style="background-color: red">Old version</td>	
-				<td style="background-color: green">Current version</td>	
-				<td style="background-color: blue">Future release</td>
+				<th>Legend:</th>	
+				<td class="old">Old version</td>	
+				<td class="current">Current version</td>	
+				<td class="future">Future release</td>
 			</tr>
 		</table><br />
 
 		<table style="border-spacing: 1px; border: 1px solid black; background-color: grey;">
 			<thead>
-				<tr>
+				<tr class="labels">
 					<th>Version</th>	
 					<th>Code name</th>	
 					<th>Release date</th>	
@@ -129,115 +130,115 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td style="background-color: red">0.7</td>	
+					<td>0.7</td>	
 					<td>none</td>	
 					<td>27 May 2003</td>	
 					<td>Used the same file structure as its predecessor, b2/cafelog, and continued the numbering from its last release, 0.6.[40] Only 0.71-gold is available for download in the official WordPress Release Archive page.</td>
 				</tr>
 				<tr>
-					<td style="background-color: red">1.2</td>	
+					<td>1.2</td>	
 					<td>Mingus</td>	
 					<td>22 May 2004</td>	
 					<td>Added support of plugins; which same identification headers are used unchanged in WordPress releases as of 2011.</td>
 				</tr>
 				<tr>
-					<td style="background-color: red">1.5</td>	
+					<td>1.5</td>	
 					<td>Strayhorn</td>	
 					<td>17 February 2005</td>	
 					<td>Added a range of vital features, such as ability to manage static pages and a template/theme system. It was also equipped with a new default template (code named Kubrick)[41] designed by Michael Heilemann.</td>
 				</tr>
 				<tr>
-					<td style="background-color: red">2.0</td>	
+					<td>2.0</td>	
 					<td>Duke</td>	
 					<td>31 December 2005</td>	
 					<td>Added rich editing, better administration tools, image uploading, faster posting, improved import system, fully overhauled the back end, and various improvements to plugin developers.[42]</td>
 				</tr>
 				<tr>
-					<td style="background-color: red">2.1</td>	
+					<td>2.1</td>	
 					<td>Ella</td>	
 					<td>22 January 2007</td>	
 					<td>Corrected security issues, redesigned interface, enhanced editing tools (including integrated spell check and auto save), and improved content management options.[43]</td>
 				</tr>
 				<tr>
-					<td style="background-color: red">2.2</td>	
+					<td>2.2</td>	
 					<td>Getz</td>	
 					<td>16 May 2007</td>	
 					<td>Added widget support for templates, updated Atom feed support, and speed optimizations.[44]</td>
 				</tr>
 				<tr>
-					<td style="background-color: red">2.3</td>	
+					<td>2.3</td>	
 					<td>Dexter</td>	
 					<td>24 September 2007</td>	
 					<td>Added native tagging support, new taxonomy system for categories, and easy notification of updates, fully supports Atom 1.0, with the publishing protocol, and some much needed security fixes.[45]</td>
 				</tr>
 				<tr>
-					<td style="background-color: red">2.5</td>	
+					<td>2.5</td>	
 					<td>Brecker</td>	
 					<td>29 March 2008</td>	
 					<td>Version 2.4 was skipped, so version 2.5 added two releases worth of new code. The administration interface was fully redesigned, and the WordPress website to match the new style.[46]</td>
 				</tr>
 				<tr>
-					<td style="background-color: red">2.6</td>	
+					<td>2.6</td>	
 					<td>Tyner</td>	
 					<td>15 July 2008</td>	
 					<td>Added new features that made WordPress a more powerful CMS: it can now track changes to every post and page and allow easy posting from anywhere on the web.[47]</td>
 				</tr>
 				<tr>
-					<td style="background-color: red">2.7</td>	
+					<td>2.7</td>	
 					<td>Coltrane</td>	
 					<td>11 December 2008</td>	
 					<td>Administration interface redesigned fully, added automatic upgrades and installing plugins, from within the administration interface.[48]</td>
 				</tr>
 				<tr>
-					<td style="background-color: red">2.8</td>	
+					<td>2.8</td>	
 					<td>Baker</td>	
 					<td>10 June 2009</td>	
 					<td>Had improvements in speed, added automatic installing of themes from within administration interface, introduces the CodePress editor for syntax highlighting and a redesigned widget interface.[49]</td>
 				</tr>
 				<tr>
-					<td style="background-color: red">2.9</td>	
+					<td>2.9</td>	
 					<td>Carmen</td>	
 					<td>19 December 2009</td>	
 					<td>Added global undo, built-in image editor, batch plugin updating, and many less visible tweaks.[50]</td>
 				</tr>
 				<tr>
-					<td style="background-color: red">3.0</td>	
+					<td>3.0</td>	
 					<td>Thelonious</td>	
 					<td>17 June 2010</td>	
 					<td>Added a new theme application programming interfaces (API); the merge of WordPress and WordPress MU, creating the new multi-site functionality, a new default theme called "Twenty Ten" and a refreshed, lighter admin UI.[51]</td>
 				</tr>
 				<tr>
-					<td style="background-color: red">3.1</td>	
+					<td>3.1</td>	
 					<td>Reinhardt</td>	
 					<td>23 February 2011</td>	
 					<td>Added the Admin Bar, which is displayed on all blog pages when an admin is logged in, and Post Format, best explained as a Tumblr like micro-blogging feature. It provides easy access to many critical functions, such as comments and updates. Includes internal linking abilities, a newly streamlined writing interface, and many other changes.[52]</td>
 				</tr>
 				<tr>
-					<td style="background-color: red">3.2</td>	
+					<td>3.2</td>	
 					<td>Gershwin</td>	
 					<td>4 July 2011</td>	
 					<td>Focused on making WordPress faster and lighter. Released only four months after version 3.1, reflecting the growing speed of development in the WordPress community.</td>
 				</tr>
 				<tr>
-					<td style="background-color: red">3.3</td>	
+					<td>3.3</td>	
 					<td>Sonny</td>	
 					<td>12 December 2011</td>	
 					<td>Focused on making WordPress friendlier for beginners and tablet computer users.</td>
 				</tr>
 				<tr>
-					<td style="background-color: red">3.4</td>	
+					<td>3.4</td>	
 					<td>Green</td>	
 					<td>13 June 2012</td>	
 					<td>Focused on improvements to theme customization, Twitter integration and several minor changes.</td>
 				</tr>
 				<tr>
-					<td style="background-color: red">3.5</td>	
+					<td>3.5</td>	
 					<td>Elvin</td>	
 					<td>11 December 2012</td>	
 					<td>Support for the Retina Display, color picker, new theme: Twenty Twelve, improved image workflow [53]</td>
 				</tr>
 				<tr>
-					<td style="background-color: green">3.6</td>	
+					<td>3.6</td>	
 					<td>Oscar</td>	
 					<td>1 August 2013[54]</td>	
 					<td>New theme: Twenty Thirteen ; Admin Enhancements - Post Formats UI Update, Menus UI improvements, Revisions Update, Autosave and Post Locking</td>
