@@ -1,12 +1,12 @@
 
 th {
 	border: 1px solid black;
-	padding: 5px;
+	padding: 20px;
 }
 
 td {
 	border: 1px solid black;
-	padding: 5px;
+	padding: 20px;
 }
 
 
@@ -14,11 +14,27 @@ td {
 	background: red;
 }
 
-tfoot {
-	font-style: italic;
-	background: blue;
-}
 
 table {
 	border: 1px solid grey;
+	text-align: center;
+	position: relative;
+	margin-left: 250px;
+	width: 960px;
+}
+
+body {
+	text-align: center;
+	background: lightgrey;
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+tfoot {
+	font-style: italic;
+	background: blue;
+	padding: 10px;
+}
+
+tfoot td {
+	padding: 10px;
 }
