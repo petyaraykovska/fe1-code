@@ -1,0 +1,24 @@
+* {margin: 0; padding: 0;}
+
+#container { width: 900px; margin: 0 auto; background: #ccc;}
+
+.header { padding: 20px; background:#fd0;}
+
+#main {
+background-image: url("http://farm8.staticflickr.com/7313/10574607563_0c4a02314d_z.jpg"); 
+width: 640px;
+height: 427px;
+margin-left: 15%;
+}
+
+#main .content: { width: 60%; margin-left: 15%; }
+
+.inner ol { padding: 2%; margin-left: 25%; color: #fff; }
+
+.playlist {font: 22px/1.5em Verdana, Arial, sans-serif; }
+.playlist li {margin-left: 1%; color: #fff;} 
+.playlist ol li:last-child { margin-right: 0; }
+
+h2 {font: 22px Verdana, Arial, sans-serif; text-align: center; padding: 5%; color: #f00;}
+
+.footer {margin: 0; padding: 0; background-color: #fd0;}
