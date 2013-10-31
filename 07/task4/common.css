@@ -8,5 +8,5 @@ nav { }
 nav ul { padding: 0; overflow: hidden; }
 nav ul li { display: block; width: 16%; margin: 0 0.76% 0 0; float: left; list-style: none outside; }
 nav ul li:last-child { margin-right: 0;  }
-nav ul li a { display: block; padding: 5px 10px; text-align: center; color: #FFF; border: 1px solid #FFF; background: #C00;  }
-nav ul li a:hover { background: #F00; text-decoration: underline;  }
+nav ul li a { display: block; padding: 5px 10px; text-align: center; color: #FFF; border: 1px solid #FFF; background: #333;  }
+nav ul li a:hover { background: #a7c4e5; text-decoration: underline;  }
