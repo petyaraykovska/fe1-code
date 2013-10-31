@@ -1,0 +1,13 @@
+/* --- Navigation --- */
+nav li { list-style: none outside; display: block; position: relative; }
+nav a { display: block; text-decoration: none; color: #000; }
+
+nav ul { background: #F00; }
+nav > ul > li { float: left; }
+nav ul li { background: #FA0;  }
+nav ul li a { padding: 10px 20px; }
+nav ul li a:hover { background: #F0A; }
+
+nav ul li ul { display: none; width: 160px; position: absolute; left: 0; top: 100%;  }
+nav li:hover > ul { display: block; }
+nav ul li ul li ul { top: 0; left: 100%; }

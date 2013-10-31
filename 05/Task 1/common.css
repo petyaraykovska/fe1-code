@@ -1,1 +1,10 @@
-commons.css
+* { padding: 0; margin: 0;}
+
+body {
+
+	padding: 4em;
+
+	}
+
+
+#box1 { width: 100%;}
