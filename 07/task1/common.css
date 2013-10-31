@@ -1,0 +1,19 @@
+*{padding: 0; margin: 0;}
+
+#container{ width: 900px; margin: 0 auto; background: #F00;}
+
+header { padding: 20px; background:#fdcd59; border-bottom: 5px solid #FFF}
+
+section { background: #333; overflow: hidden;}
+section .content { width: 70%; background: #F00;}
+section .content .inner{border-right: 5px solid #FFF}
+
+section .content,
+section .sidebar { padding: 0; float: left; color: #FFF; text-align: center;}
+section .sidebar { width: 30%; background: #F0F;}
+
+
+footer { padding: 20px; background: #f47321; border-top: 5px solid #FFF  }
+
+.content .inner,
+.sidebar .inner { padding: 80px 20px;}

@@ -1,0 +1,21 @@
+*{padding: 0; margin: 0;}
+
+#container{ width: 900px; margin: 0 auto; background: #F00;}
+
+header { padding: 20px; background:#CCC;border-bottom: 5px solid #FFF}
+
+section { background: #EEC; overflow: hidden;}
+section .content { width: 65%; background: #F00;}
+section .content .inner {border-right: 5px solid #FFF; border-left: 5px solid #FFF}
+section .sidebar-left { width: 20%; background: #F05}
+
+section .sidebar-right { width: 15%; background: #F0F;}
+
+section .content,
+section .sidebar-right, section .sidebar-left { padding: 0px; float: left; color: #FFF; text-align: center }
+
+footer { padding: 20px; background: #CCC;border-top: 5px solid #FFF }
+
+.content .inner,
+.sidebar-right .inner, 
+.sidebar-left .inner { padding: 100px 20px;}
