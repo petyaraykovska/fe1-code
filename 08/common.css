@@ -2,14 +2,14 @@
 
 #container{ width: 900px; margin: 0 auto; background: #ccc;}
 
-.header { padding: 20px; background:#fd0;}
+.header { padding: 20px; background:#ebebeb;}
 
 #body { background: #CCC;}
 #body .content { width: 60%; margin-left: 15%;}
 
 img { width: 200px; height: 200px; }
 
-.footer { padding: 20px; background: #EFE; }
+.footer { padding: 20px; background: #ebebeb; }
 
 .inner {padding: 20px;}
 
@@ -18,14 +18,14 @@ img { width: 200px; height: 200px; }
 
 h1 {text-align: center;}
 
-.gallery { overflow: hidden; width: 100%; background: #F00;}
+.gallery { overflow: hidden; width: 100%; background: #333; margin-top: 30px;}
 .gallery li { display: block; float: left; list-style: none; width: 200px; margin: 20px 20px ; }
-.gallery li a { display: block; width: 100%; max-height: 120px; overflow: hidden; border: 1px solid #000; }
+.gallery li a { display: block; width: 100%; max-height: 200px; overflow: hidden; border: 1px solid #000; }
 .gallery li a img { display: block; width: 100%; }
 
 
 nav ul { padding: 0; margin-left: 17%; overflow: hidden; }
 nav ul li { display: block; width: 16%; margin-right: 20px; float: left; list-style-type: none ; }
 nav ul li:last-child { margin-right: 0; }
-nav ul li a { display: block; padding: 5px 10px; text-align: center; color: #FFF; border: 1px solid #FFF; background: #C00; text-decoration: none; }
-nav ul li a:hover { background: #FD0; text-decoration: underline; }
+nav ul li a { display: block; padding: 5px 10px; text-align: center; color: #FFF; border: 1px solid #FFF; background: #333; text-decoration: none; }
+nav ul li a:hover { background: #f3f3f3; text-decoration: underline; }
