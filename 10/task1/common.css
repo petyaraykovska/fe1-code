@@ -1,0 +1,52 @@
+* {margin: 0; padding: 0;}
+
+#container { width: 640px; margin: 0 auto; background: #333;}
+
+.header { padding: 20px; background:#fd0;}
+
+#main {
+background-image: url("http://distilleryimage7.ak.instagram.com/4444a566419511e38d7822000a1fa48d_8.jpg");
+width: 640px;
+height: auto;
+margin: 80 0 0 0;
+}
+
+#main .content: { width: 80%; }
+
+li {
+background-image:url('dot.png');
+background-repeat:repeat-x; 
+background-position: left 78%;
+}
+
+ol.playlist {
+	width: 400px;
+	height: 400px;
+	padding: 40px;
+	margin: 50px auto;
+}
+
+ol.playist li {}
+
+ol.playlist li span { background: #000; padding: 5px;}
+
+.inner ol { margin-left: 10%; margin-right: 10%; color: #fff; }
+
+.playlist {font: 1em Verdana, Arial, sans-serif; }
+.playlist li {color: #fff; display: block; overflow:hidden; padding-top: 5px;} 
+.playlist ol li:last-child { margin-right: 0; }
+
+h2 {font: 22px Verdana, Arial, sans-serif; text-align: center; padding: 5%; color: ##3B31AF;}
+
+.content h2 {color: #fff;}
+
+.footer {margin: 0; padding: 0; background-color: #fd0;}
+
+.songtitle {float: left;}
+
+.timing {float: right;}
+
+ol li span {display: block;}
+
+ 
+

@@ -1,16 +1,17 @@
 * {margin: 0; padding: 0;}
 
-#container { width: 900px; margin: 0 auto; background: #333;}
+#container { width: 640px; margin: 0 auto; background: #333;}
 
 .header { padding: 20px; background:#fd0;}
 
 #main {
-background: #ccc); 
+background-image: url("http://distilleryimage7.ak.instagram.com/4444a566419511e38d7822000a1fa48d_8.jpg");
 width: 640px;
 height: 427px;
-margin-left: 15%;
 padding-top: 100px;
 }
+
+ol {background-repeat:repeat-x; background-image: url("dot.png");}
 
 #main .content: { width: 60%; margin-left: 15%; }
 
@@ -24,3 +25,10 @@ h2 {font: 22px Verdana, Arial, sans-serif; text-align: center; padding: 5%; colo
 .content h2 {color: #fff;}
 
 .footer {margin: 0; padding: 0; background-color: #fd0;}
+
+.songtitle {}
+
+.timing {}
+
+ 
+
