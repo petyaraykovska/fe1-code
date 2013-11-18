@@ -50,8 +50,8 @@ p { padding-bottom: 1.5em;}
 .articles ul li span { display: block; padding: 0 20px;}
 
 .articles ul li strong { padding-top: 20px;}
-.articles ul li span.copy { padding-bottom: 20px;}
-.articles ul li span.meta { color: #000; padding-bottom: 20px;}
+.articles ul li span.copy { padding-bottom: 20px; color: #999;}
+.articles ul li span.meta { color: #000; padding-bottom: 10px; color: #999; }
 
 
 .index h3 { font-size: 2em; font-weight: normal; color: #000; }
