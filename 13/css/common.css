@@ -1,0 +1,39 @@
+@import url("reset.css");
+@import url("typography.css");
+@import url("navigation.css");
+@import url("elements.css");
+
+#container { width: 90%; margin: 0 auto; border-top: 10px solid #000; }
+
+#header #site-title { padding: 50px 20px 25px 20px; margin: 0; font-size: 2.5em; font-weight: normal; border-bottom: 1px solid #e0e0e0; }
+#header #site-title a { color: #000; }
+#header #site-title a span { color: #acacac; }
+
+#footer { overflow: hidden; padding: 20px; }
+#footer p { padding: 0; color: #999; }
+#footer div { width: 50%; float: left; }
+#footer div.left { text-align: left; }
+#footer div.right { text-align: right; }
+
+#main { border-bottom: 4px solid #f4f4f4; }
+#main-inner { border-bottom: 1px solid #e0e0e0; overflow: hidden; }
+
+#main .inner { padding: 20px; }
+#main .column { float: left; overflow: hidden; }
+#main .content { width: 63.26%; margin-right: 4.08%; }
+#main .sidebar { width: 32.65%; }
+
+#main.sidebar-right .column { float: right; } 
+#main.sidebar-right .content { margin-right: 0; margin-left: 4.08%; } 
+
+#main.sidebar-double .sidebar { width: 26.53%; } 
+#main.sidebar-double .content { width: 46.93%; margin: 0; } 
+
+#main.sidebar-none .sidebar { display: none; } 
+#main.sidebar-none .content { width: 46.93%; float: none; margin: 0 auto; padding-bottom: 4em; } 
+
+.page #main { padding-top: 3em; }
+
+.content article .subheading { font-size: 1.5em; font-style: italic; color: #999; }
+
+#titletag h2 { padding-left: 5px; background: black; line-height: 2em; color: white; }
