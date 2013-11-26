@@ -1,0 +1,86 @@
+* { padding: 0; margin: 0; }
+
+body { font: 12px/1.5 Verdana, sans-serif; background: #3a4146; }
+
+.cleaner { clear: both;  }
+#player, #player * { 
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+#player {
+        width: 562px; padding: 40px; margin: 100px auto;
+        background: 
+                                url('../images/player_bgrd_top_right.png') right top no-repeat,
+                                url('../images/player_bgrd_top_left.png') left top no-repeat,
+                                url('../images/player_bgrd_top.png') left top repeat-x,
+                                url('../images/player_bgrd_bottom_left.png') left bottom no-repeat,
+                                url('../images/player_bgrd_bottom_right.png') right bottom no-repeat,
+                                url('../images/player_bgrd_bottom.png') left bottom repeat-x,
+                                url('../images/player_bgrd.png') left top repeat-y;
+}
+
+#player .screen { 
+        margin-right: 170px; 
+        height: 53px; padding: 8px 10px 8px 60px; color: #FFF; 
+        background: url('../images/screen_bgrd_left.png') left top no-repeat,
+                                url('../images/screen_bgrd_right.png') right top no-repeat,
+                                url('../images/screen_bgrd.png') left top repeat-x;
+}
+
+#player .controls { width: 160px; float: right; height: 53px; overflow: hidden; }
+#player .controls a { display: block; width: 32px; height: 32px; margin: 10px 0 0 14px; float: left; background: url('../images/control_btn_bgrd.png') left top no-repeat; }
+#player .controls a span { display: block; width: 100%; height: 100%; overflow: hidden; text-indent: -1920px;  }
+
+#player .controls a:hover { background-position: left -32px; }
+#player .controls a:active { background-position: left -64px; }
+
+#player .controls a.rwnd-pause { display: none; }
+
+#player .controls a.rwnd-back span { background: url('../images/control_btn_rewind_back.png') left top no-repeat; }
+#player .controls a.rwnd-play span { background: url('../images/control_btn_play.png') left top no-repeat; }
+#player .controls a.rwnd-pause { background: url('../images/control_btn_pause.png') left top no-repeat; }
+#player .controls a.rwnd-forwd span { background: url('../images/control_btn_rewind_forward.png') left top no-repeat; }
+
+
+#player .seeker { 
+        height: 8px; 
+        padding: 1px 1px; 
+        position: relative; 
+        background: 
+                url('../images/slider_bgrd_left.png') left top no-repeat,
+                url('../images/slider_bgrd_right.png') right top no-repeat,
+                url('../images/slider_bgrd.png') left top repeat-x;
+        ; 
+}
+
+#player .seeker .inner { width: 60%; height: 5px; border-radius: 2px; background: url('../images/slider_inner_bgrd.png') left top repeat-x;  }
+#player .seeker .knob { display: block; width: 19px; height: 21px; position: absolute; left: 60%; top: -7px; margin-left: -10px; background: url('../images/slider_knob.png') left top no-repeat;  }
+
+#player .seeker .inner { width: 20%; }
+#player .seeker .knob { left: 20%; }
+
+#player .meta { }
+#player .meta .song-duration { float: left; width: 60%; }
+#player .meta .volume { float: left; width: 40%; }
+
+
+#player .screen .song-title { font-weight: bold; }
+#player .screen .album-title { font-size: 0.9em; }
+
+#player .separator {
+        clear: both; 
+        height: 2px;
+        margin: 10px 0; 
+        background: url('../images/separator_bgrd.png') left top repeat-x;
+}
+
+#player .playlist { padding: 5px 10px; margin-top: 10px;  background: #efefef; border: 1px solid #3b3b3b; border-radius: 5px; }
+#player .playlist ol { display: block; padding: 0; margin: 0; }
+#player .playlist ol li { display: block; padding: 0 8px; position: relative; border-bottom: 1px dotted #c9c9c9; color: #67747e; list-style: none outside; }
+#player .playlist ol li:last-child { border-bottom: none; }
+#player .playlist ol li span { display: inline-block; padding: 8px 0; }
+#player .playlist ol li .number { padding-right: 10px; }
+#player .playlist ol li .actions { display: none; }
+#player .playlist ol li .title { font-weight: bold;  }
+#player .playlist ol li .duration { position: absolute; right: 10px; top: 0; }

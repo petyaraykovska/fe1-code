@@ -1,0 +1,12 @@
+#banner { border-bottom: 4px solid #f4f4f4; }
+#banner h4 { padding: 80px 20px; margin: 0; font-size: 3em; color: #000; font-weight: bold; border-bottom: 1px solid #e0e0e0; }
+
+.articles { clear: both; border-top: 1px solid #e0e0e0; }
+.articles ul { padding: 0; overflow: hidden; border-top: 4px solid #f4f4f4; }
+.articles ul li { display: block; width: 25%; float: left; }
+.articles ul li br { display: none; }
+.articles ul li strong,
+.articles ul li span { display: block; padding: 0 20px; }
+.articles ul li strong { padding-top: 20px; }
+.articles ul li span.copy { padding-bottom: 20px; color: #999; }
+.articles ul li span.meta { color: #999; padding-bottom: 10px; }
